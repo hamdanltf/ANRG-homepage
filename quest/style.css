@@ -1,0 +1,60 @@
+/* navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 30px;
+}
+
+
+h1 {
+    font-family: viga;
+}
+
+.jumbotron {
+    background-image: url(../img/home/bg-home-01.svg);
+    background-size: cover;
+    background-color: white;
+}
+
+.jumbotron .display-4 {
+    font-family: viga;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
+}
+
+.footer {
+    margin-bottom: 20px;
+}
+
+
+/* Desktop */
+@media (min-width: 992px) {
+    .jumbotron {
+        margin-top: -75px;
+        height: 800px;
+    }
+
+    .nav-link {
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid orange;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron .display-4 {
+        margin-top: 150px;
+    }
+
+    .quest {
+        margin-top: -200px;
+        margin-bottom: 30px;
+    }
+
+}
