@@ -22,11 +22,6 @@ html {
     margin-left: 300px;
 }
 
-.s-wing {
-      position: sticky;
-  position: -webkit-sticky;
-}
-
 .space {
     height: 30px;
 }
@@ -84,7 +79,7 @@ nav ul {
     width: 100%;
     height: 5px;
     background: #ccc;
-        margin-top: 100px;
+    margin-top: 100px;
     position: fixed;
 }
 
@@ -97,37 +92,39 @@ nav ul {
 
 .hero {
     height: 100vh;
-    background-image: url(svg/bg-home-01.svg);
+    background-image: url(../svg/bg-home-01.svg);
     background-size: cover;
+    margin-bottom: 100px;
 }
 
 .hero-team {
     height: 100vh;
-    background-image: url(images/crazyrich.jpg);
+    background-image: url(../images/crazyrich.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
 .hero-inbox {
     height: 100vh;
-    background-image: url(images/sibego.jpg);
+    background-image: url(../images/sibego.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
 .hero-text {
     font-size: 60px;
     font-weight: 100;
-    /* background-color: black; */
     width: 100%;
 }
 
 .inner-hero {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: -80vh;
 }
@@ -140,8 +137,6 @@ nav ul {
     margin-top: -60vh;
     line-height: 50px;
     font-size: 30px;
-    /* width: 100%; */
-    /* background-color: #ccc; */
 }
 
 .inner-hero-team {
@@ -195,7 +190,6 @@ nav ul {
 .shield {
     display: flex;
     flex-direction: row;
-    /* background-color: #bf2227; */
     padding: 30px;
 }
 
@@ -203,17 +197,16 @@ nav ul {
     width: 70vh;
     padding-right: 30px;
 }
+
 .title {
     margin-top: 100px;
 }
 
 .content {
-    /* height: 100px; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* margin: 50px 0px; */
 }
 
 .content-act {
@@ -233,11 +226,6 @@ nav ul {
     border-radius: 10px;
     margin-top: 50px;
 }
-
-/* .content-act a:hover {
-    color: whitesmoke;
-    background-color: #bf2227;
-} */
 
 .content-img img {
     height: 50vh;
@@ -296,6 +284,12 @@ nav ul {
     padding: 20px;
 }
 
+.content-text a:hover {
+    background-color:#bf2227;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
 .content-text h1 {
     margin: 20px 0px;
     /* padding: 20px; */
@@ -304,12 +298,6 @@ nav ul {
 .content-text .division a {
     margin-left: -20px;
     line-height: 100px;
-}
-
-.content-text a:hover {
-    background-color:#bf2227;
-    border-radius: 10px;
-    color: whitesmoke;
 }
 
 .content-text li {
