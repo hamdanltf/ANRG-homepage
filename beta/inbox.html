@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/logo anrg.png" type="image/x-icon">
+  <title>inbox</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav container">
+      <img src="images/logo anrg.png" alt="">
+      <ul>
+        <li><a href="https://anrg-belajar.blogspot.com/">blog</a></li>
+        <li><a href="reseacrh.html">research</a></li>
+        <li><a href="http://lms.cpsrg.org/">practicum</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+
+  <main>
+
+    <div class="hero-inbox">
+      <div class="block-team"></div>
+      <div class="inner-hero-team container">
+        <div class="hero-text">
+          <div class="white">
+            <p>inbox cak!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <section id="events">
+        <div class="welcome-event"></div>
+        <div class="events-container"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <hr>
+      <div class="footer-text">
+        <ul>
+          <li><a href="https://telkomuniversity.ac.id/en/">telkom University</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">accessnet rg</a></li>
+          <li><a href="http://lms.cpsrg.org/">practicum</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://www.youtube.com/channel/UC42GWeJoc8HCQ2iIo7Cl9xA">youtube</a></li>
+          <li><a href="https://www.instagram.com/cpslaboratory/">instagram</a></li>
+          <li>accessnetrg@gmail.com</li>
+          <li>line @jsj1167b</li>
+        </ul>
+      </div>
+      <div class="footer-block"></div>
+    </div>
+  </footer>
+
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function () { myFunction() };
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyC_iA0rWmVW8h_ViYaAe5VafmXIkNVFaf8",
+      authDomain: "ltfproject.firebaseapp.com",
+      databaseURL: "https://ltfproject.firebaseio.com",
+      projectId: "ltfproject",
+      storageBucket: "ltfproject.appspot.com",
+      messagingSenderId: "884977742247",
+      appId: "1:884977742247:web:140cd8cb81dddff8360682"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore()
+  </script>
+
+  <script src="js/app.js"></script>
+  <script src="js/db.js"></script>
+
+</body>
+
+</html>
