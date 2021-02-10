@@ -96,24 +96,25 @@ nav ul {
 }
 
 .hero {
-    /* margin-top: -100px; */
     height: 100vh;
     background-image: url(svg/bg-home-01.svg);
     background-size: cover;
 }
 
 .hero-team {
-    /* margin-top: -100px; */
     height: 100vh;
     background-image: url(images/crazyrich.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .hero-inbox {
-    /* margin-top: -100px; */
     height: 100vh;
     background-image: url(images/sibego.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .hero-text {

@@ -28,5 +28,5 @@ dasarnya orang gabut, labnya udah bubar baru benerin web ini wkwkwk. buat kalian
 
 **to do**
 
-1. header sama footer sebaiknya dibikin di file terpisah, ngeselin bener ada typo harus ganti atu-atu
+1. ~~header sama footer sebaiknya dibikin di file terpisah, ngeselin bener ada typo harus ganti atu-atu~~
 2. bikin halaman login untuk inbox
