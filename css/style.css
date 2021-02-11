@@ -141,6 +141,31 @@ nav ul {
     width: 0%;
 }
 
+.bigmac input {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    opacity: 0;
+    left: -18px;
+    top: -10px;
+    cursor: pointer;
+}
+.bigmac {
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.bigmac span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #bf2227;
+    border-radius: 3px;
+}
+
 .hero {
     height: 100vh;
     background-image: url(../svg/bg-home-01.svg);

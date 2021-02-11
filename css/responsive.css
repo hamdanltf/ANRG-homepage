@@ -83,6 +83,33 @@
 }
 
 @media screen and (max-width: 576px) {
+        .bigmac {
+        display: flex;
+    }
+
+    nav ul a {
+        color: whitesmoke;
+    }
+
+    nav ul{
+        position: absolute;
+        right: 0;
+        top: 15vh;
+        height: 85vh;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bf2227;
+        width: 50%;
+        transform: translateX(100%);
+    }
+
+    nav ul.slide {
+        transform: translateX(0);
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }
 
     .shield img {
         margin: 0px;
