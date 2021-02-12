@@ -13,7 +13,7 @@ dasarnya orang gabut, labnya udah bubar baru benerin web ini wkwkwk. buat kalian
 1. redesign tampilan
 2. beralih ke pure css dari yang sebelumnya bootstrap 4, iya emang kurang kerjaan
 3. beralih dari mySQL ke firestore, biar database tetep jalan walau cuma dihosting di github xixixi
-4. lebih enteng (semoga), note: check via https://developers.google.com/speed/pagespeed/insights/ beneran lebih cepet yey!
+4. lebih enteng (semoga), note: check via https://gtmetrix.com/ beneran lebih cepet yey!
 
 
 
